@@ -221,7 +221,7 @@ void loop() {
   failSafe(); //Prevent failures in event of bad receiver connection, defaults to failsafe values assigned in setup
 
 
-   loopRate(1250);
+   loopRate(1000);
 
   
 }
